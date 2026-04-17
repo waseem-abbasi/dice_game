@@ -3,7 +3,7 @@ const Rules = () => {
         <>
             <div className="d-flex flex-column justify-content-center  align-items-center text-start">
 
-                <div className="border mt-3 ms-5" >
+                <div className="mt-3 ms-5" >
                     <h2 className="text-start">How to play dice game</h2>
                     <p>Select any number</p>
                     <p>Click on dice image</p>
