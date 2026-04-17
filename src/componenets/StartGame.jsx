@@ -12,7 +12,7 @@ const StartGame = ({toggle}) => {
                         </div>
                     </Col>
                     <Col className="" md={6}>
-                        <h1 style={{ fontSize: "100px" }}>DICE GAME</h1>
+                        <h1 style={{ fontSize: "80px" }} className="text-center">DICE GAME</h1>
                         <div className="text-center me-4">
                            
                             <Button variant="outline-dark" onClick={toggle} className="text-center ">start</Button>
