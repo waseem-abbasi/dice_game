@@ -43,12 +43,12 @@ const GamePlay = () => {
     }
     return (
         <main>
-            <Container className='mt-5'>
-                <Row>
-                    <Col>
+            <Container className='mt-1'>
+                <Row >
+                    <Col className='text-center pt-4' xs={3} >
                         <TotalScore score={score} />
                     </Col>
-                    <Col>
+                    <Col >
 
                         <PlayGame selectValue={selectValue} setSelectValue={setSelectValue} error={error} setError={setError} />
                     </Col>
